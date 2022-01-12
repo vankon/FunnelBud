@@ -1,0 +1,15 @@
+.header {
+    padding: 4.5rem 0;
+
+    &-inner {
+        padding: 0 8px;
+    }
+
+    img {
+        width: 250px;
+    }
+
+    @include media-breakpoint('lt-md') {
+        text-align: center;
+    }
+}
